@@ -1,0 +1,29 @@
+{
+	"env": {
+		"browser": true
+	},
+	"extends": ["eslint:recommended", "react"],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"allowImportExportEverywhere": false,
+		"codeFrame": false
+	},
+  "globals": {
+    "process": false,
+    "require": false,
+    "Promise": false
+  },
+	"plugins": [ "eslint-plugin-react" ],
+	"rules": {
+		"quotes": [2, "single"],
+		"camelcase": 0,
+		"no-console": 1,
+		"indent": [2, 2],
+		"jsx-quotes": [2, "prefer-double"],
+		"space-before-function-paren": 0,
+    "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
+    "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
+    "semi": [2, "never"]
+	}
+}
