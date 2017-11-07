@@ -1,7 +1,7 @@
 {
-  "name": "LuxSky-inbrowser-builder",
+  "name": "inbrowser-builder",
   "version": "0.0.1",
-  "description": "Phobosys LuxSky",
+  "description": "Phobosys",
   "private": true,
   "scripts": {
     "build:dev": "node build/index.js",

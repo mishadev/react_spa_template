@@ -3,8 +3,8 @@
 APP_NAME=inbrowser
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BUILD_DIR="$( cd "$DIR/$APP_NAME" && pwd )"
-CONTAINER_NAME="lux-sky-inbrowser-ui"
-IMAGE_NAME="lux-sky-inbrowser-ui"
+CONTAINER_NAME="inbrowser-ui"
+IMAGE_NAME="inbrowser-ui"
 DOCKERFILE="Dockerfile"
 
 docker rm -f $CONTAINER_NAME

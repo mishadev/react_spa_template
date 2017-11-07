@@ -4,8 +4,8 @@ APP_NAME=inbrowser
 # BUILDER_OUTPUT_DIR_PATH="../git_static/"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BUILD_DIR="$( cd "$DIR/$APP_NAME" && pwd )"
-CONTAINER_NAME="lux-sky-inbrowser-ui"
-IMAGE_NAME="lux-sky-inbrowser-ui"
+CONTAINER_NAME="inbrowser-ui"
+IMAGE_NAME="inbrowser-ui"
 
 if [ -z $BUILDER_OUTPUT_DIR_PATH ]; then
   BUILDER_OUTPUT_DIR_PATH="../webstatic/www"
